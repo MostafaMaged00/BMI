@@ -1,0 +1,125 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* App Container */
+.App {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the form */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label styles */
+label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Input field styles */
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4CAF50;
+}
+
+/* Button Group */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 48%;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit Button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Reload Button */
+.btn-outline {
+  background-color: transparent;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
+
+.btn-outline:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered result */
+.center {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.center h3 {
+  font-size: 24px;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.center p {
+  font-size: 16px;
+  color: #555;
+  font-weight: 400;
+}
