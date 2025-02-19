@@ -13,7 +13,7 @@ function App() {
   let calcBmi = (e) => {
     e.preventDefault()
     if(weight === 0 || height === 0){
-      alert('Please Enter your hiehight and weghit')
+      alert('Please Enter your Height and Weight')
 
     }
     {
@@ -83,7 +83,7 @@ function App() {
 
             </div>
 
-            <div className='center'>
+            <div className='result-text'>
               <h3>Your BMI is :{bmi} </h3>
               <p>{message}</p>
 

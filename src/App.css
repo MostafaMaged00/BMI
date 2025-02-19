@@ -98,6 +98,7 @@ button {
   background-color: transparent;
   color: #4CAF50;
   border: 2px solid #4CAF50;
+  margin-left: 8px;
 }
 
 .btn-outline:hover {
@@ -106,19 +107,19 @@ button {
 }
 
 /* Centered result */
-.center {
+.result-text {
   margin-top: 30px;
   text-align: center;
   font-size: 18px;
 }
 
-.center h3 {
+.result-text h3 {
   font-size: 24px;
   color: #4CAF50;
   font-weight: bold;
 }
 
-.center p {
+.result-text p {
   font-size: 16px;
   color: #555;
   font-weight: 400;
